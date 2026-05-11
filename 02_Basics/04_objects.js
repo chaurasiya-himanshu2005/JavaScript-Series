@@ -54,3 +54,28 @@ console.log(Object.entries(tinderUser)); // it will give entries of object
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // true
 
+
+const course = {
+    coursename: "js is hindi", 
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "names": "hitesh",
+//     "coursenames": "js in hindi",
+//     "prices": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
